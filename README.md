@@ -21,3 +21,7 @@ This project is an e-commerce platform built using React for the frontend and Dj
 1. **Navigate to the Backend Directory**:
    ```sh
    cd BACKEND/Ecommerce
+2. **Install Dependencies**:
+   ```sh
+   pip install -r requirements.txt
+

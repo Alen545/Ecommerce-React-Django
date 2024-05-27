@@ -24,4 +24,27 @@ This project is an e-commerce platform built using React for the frontend and Dj
 2. **Install Dependencies**:
    ```sh
    pip install -r requirements.txt
+3. **Database Configuration**:
+Update settings.py with your MySQL database credentials:
+```sh
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'your_database_name',
+        'USER': 'your_database_user',
+        'PASSWORD': 'your_database_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+```
+4.**Apply Migrations**:
+```sh
+python manage.py makemigrations
+python manage.py migrate
+```
+5.**Run the Server**:
+```sh
+python manage.py runserver
+```
 

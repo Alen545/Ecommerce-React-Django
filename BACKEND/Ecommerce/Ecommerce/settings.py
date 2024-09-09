@@ -194,9 +194,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER="alengeorge1999@gmail.com"
-EMAIL_HOST_PASSWORD = 'qjusgsgbldgbvqgd'
-DEFAULT_FROM_EMAIL = 'alengeorge1999@gmail.com'
+EMAIL_HOST_USER="YOUR EMAIL ID"
+EMAIL_HOST_PASSWORD = 'YOUR EMAIL HOST PASSWORD'
+DEFAULT_FROM_EMAIL = 'YOUR EMAIL ID'
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_AGE = 3600  # Set session cookie age to 1 hour (3600 seconds)
